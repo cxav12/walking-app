@@ -1,0 +1,941 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25D58BE2306F009E0082448B /* WalkingWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 25D58BC4306F009D0082448B /* WalkingWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		259D4749306EFC9C005E893A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 259D4731306EFC9B005E893A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 259D4738306EFC9B005E893A;
+			remoteInfo = WalkingApp;
+		};
+		259D4753306EFC9C005E893A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 259D4731306EFC9B005E893A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 259D4738306EFC9B005E893A;
+			remoteInfo = WalkingApp;
+		};
+		25D58BD1306F009E0082448B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 259D4731306EFC9B005E893A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25D58BC3306F009D0082448B;
+			remoteInfo = "WalkingWatch Watch App";
+		};
+		25D58BDB306F009E0082448B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 259D4731306EFC9B005E893A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25D58BC3306F009D0082448B;
+			remoteInfo = "WalkingWatch Watch App";
+		};
+		25D58BE0306F009E0082448B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 259D4731306EFC9B005E893A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25D58BC3306F009D0082448B;
+			remoteInfo = "WalkingWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		259D478A306EFE47005E893A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolder = Product;
+			files = (
+				25D58BE2306F009E0082448B /* WalkingWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		259D4739306EFC9B005E893A /* WalkingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalkingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		259D4748306EFC9C005E893A /* WalkingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalkingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		259D4752306EFC9C005E893A /* WalkingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalkingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25D58BC4306F009D0082448B /* WalkingWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WalkingWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25D58BD0306F009E0082448B /* WalkingWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WalkingWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25D58BDA306F009E0082448B /* WalkingWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WalkingWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		259D473B306EFC9B005E893A /* WalkingApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WalkingApp;
+			sourceTree = "<group>";
+		};
+		259D474B306EFC9C005E893A /* WalkingAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WalkingAppTests;
+			sourceTree = "<group>";
+		};
+		259D4755306EFC9C005E893A /* WalkingAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WalkingAppUITests;
+			sourceTree = "<group>";
+		};
+		25D58BC5306F009D0082448B /* WalkingWatch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "WalkingWatch Watch App";
+			sourceTree = "<group>";
+		};
+		25D58BD3306F009E0082448B /* WalkingWatch Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "WalkingWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		25D58BDD306F009E0082448B /* WalkingWatch Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "WalkingWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		259D4736306EFC9B005E893A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		259D4745306EFC9C005E893A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		259D474F306EFC9C005E893A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		25D58BC1306F009D0082448B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		25D58BCD306F009E0082448B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		25D58BD7306F009E0082448B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		259D4730306EFC9B005E893A = {
+			isa = PBXGroup;
+			children = (
+				259D473B306EFC9B005E893A /* WalkingApp */,
+				259D474B306EFC9C005E893A /* WalkingAppTests */,
+				259D4755306EFC9C005E893A /* WalkingAppUITests */,
+				25D58BC5306F009D0082448B /* WalkingWatch Watch App */,
+				25D58BD3306F009E0082448B /* WalkingWatch Watch AppTests */,
+				25D58BDD306F009E0082448B /* WalkingWatch Watch AppUITests */,
+				259D473A306EFC9B005E893A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		259D473A306EFC9B005E893A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				259D4739306EFC9B005E893A /* WalkingApp.app */,
+				259D4748306EFC9C005E893A /* WalkingAppTests.xctest */,
+				259D4752306EFC9C005E893A /* WalkingAppUITests.xctest */,
+				25D58BC4306F009D0082448B /* WalkingWatch Watch App.app */,
+				25D58BD0306F009E0082448B /* WalkingWatch Watch AppTests.xctest */,
+				25D58BDA306F009E0082448B /* WalkingWatch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		259D4738306EFC9B005E893A /* WalkingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259D475A306EFC9C005E893A /* Build configuration list for PBXNativeTarget "WalkingApp" */;
+			buildPhases = (
+				259D4735306EFC9B005E893A /* Sources */,
+				259D4736306EFC9B005E893A /* Frameworks */,
+				259D4737306EFC9B005E893A /* Resources */,
+				259D478A306EFE47005E893A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25D58BE1306F009E0082448B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				259D473B306EFC9B005E893A /* WalkingApp */,
+			);
+			name = WalkingApp;
+			productName = WalkingApp;
+			productReference = 259D4739306EFC9B005E893A /* WalkingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		259D4747306EFC9C005E893A /* WalkingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259D475D306EFC9C005E893A /* Build configuration list for PBXNativeTarget "WalkingAppTests" */;
+			buildPhases = (
+				259D4744306EFC9C005E893A /* Sources */,
+				259D4745306EFC9C005E893A /* Frameworks */,
+				259D4746306EFC9C005E893A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				259D474A306EFC9C005E893A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				259D474B306EFC9C005E893A /* WalkingAppTests */,
+			);
+			name = WalkingAppTests;
+			productName = WalkingAppTests;
+			productReference = 259D4748306EFC9C005E893A /* WalkingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		259D4751306EFC9C005E893A /* WalkingAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259D4760306EFC9C005E893A /* Build configuration list for PBXNativeTarget "WalkingAppUITests" */;
+			buildPhases = (
+				259D474E306EFC9C005E893A /* Sources */,
+				259D474F306EFC9C005E893A /* Frameworks */,
+				259D4750306EFC9C005E893A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				259D4754306EFC9C005E893A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				259D4755306EFC9C005E893A /* WalkingAppUITests */,
+			);
+			name = WalkingAppUITests;
+			productName = WalkingAppUITests;
+			productReference = 259D4752306EFC9C005E893A /* WalkingAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		25D58BC3306F009D0082448B /* WalkingWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25D58BE9306F009E0082448B /* Build configuration list for PBXNativeTarget "WalkingWatch Watch App" */;
+			buildPhases = (
+				25D58BC0306F009D0082448B /* Sources */,
+				25D58BC1306F009D0082448B /* Frameworks */,
+				25D58BC2306F009D0082448B /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				25D58BC5306F009D0082448B /* WalkingWatch Watch App */,
+			);
+			name = "WalkingWatch Watch App";
+			productName = "WalkingWatch Watch App";
+			productReference = 25D58BC4306F009D0082448B /* WalkingWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25D58BCF306F009E0082448B /* WalkingWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25D58BEA306F009E0082448B /* Build configuration list for PBXNativeTarget "WalkingWatch Watch AppTests" */;
+			buildPhases = (
+				25D58BCC306F009E0082448B /* Sources */,
+				25D58BCD306F009E0082448B /* Frameworks */,
+				25D58BCE306F009E0082448B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25D58BD2306F009E0082448B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				25D58BD3306F009E0082448B /* WalkingWatch Watch AppTests */,
+			);
+			name = "WalkingWatch Watch AppTests";
+			productName = "WalkingWatch Watch AppTests";
+			productReference = 25D58BD0306F009E0082448B /* WalkingWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25D58BD9306F009E0082448B /* WalkingWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25D58BEB306F009E0082448B /* Build configuration list for PBXNativeTarget "WalkingWatch Watch AppUITests" */;
+			buildPhases = (
+				25D58BD6306F009E0082448B /* Sources */,
+				25D58BD7306F009E0082448B /* Frameworks */,
+				25D58BD8306F009E0082448B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25D58BDC306F009E0082448B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				25D58BDD306F009E0082448B /* WalkingWatch Watch AppUITests */,
+			);
+			name = "WalkingWatch Watch AppUITests";
+			productName = "WalkingWatch Watch AppUITests";
+			productReference = 25D58BDA306F009E0082448B /* WalkingWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		259D4731306EFC9B005E893A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					259D4738306EFC9B005E893A = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					259D4747306EFC9C005E893A = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 259D4738306EFC9B005E893A;
+					};
+					259D4751306EFC9C005E893A = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 259D4738306EFC9B005E893A;
+					};
+					25D58BC3306F009D0082448B = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					25D58BCF306F009E0082448B = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 25D58BC3306F009D0082448B;
+					};
+					25D58BD9306F009E0082448B = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 25D58BC3306F009D0082448B;
+					};
+				};
+			};
+			buildConfigurationList = 259D4734306EFC9B005E893A /* Build configuration list for PBXProject "WalkingApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 259D4730306EFC9B005E893A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 259D473A306EFC9B005E893A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				259D4738306EFC9B005E893A /* WalkingApp */,
+				259D4747306EFC9C005E893A /* WalkingAppTests */,
+				259D4751306EFC9C005E893A /* WalkingAppUITests */,
+				25D58BC3306F009D0082448B /* WalkingWatch Watch App */,
+				25D58BCF306F009E0082448B /* WalkingWatch Watch AppTests */,
+				25D58BD9306F009E0082448B /* WalkingWatch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		259D4737306EFC9B005E893A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		259D4746306EFC9C005E893A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		259D4750306EFC9C005E893A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		25D58BC2306F009D0082448B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		25D58BCE306F009E0082448B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		25D58BD8306F009E0082448B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		259D4735306EFC9B005E893A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		259D4744306EFC9C005E893A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		259D474E306EFC9C005E893A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		25D58BC0306F009D0082448B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		25D58BCC306F009E0082448B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		25D58BD6306F009E0082448B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		259D474A306EFC9C005E893A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 259D4738306EFC9B005E893A /* WalkingApp */;
+			targetProxy = 259D4749306EFC9C005E893A /* PBXContainerItemProxy */;
+		};
+		259D4754306EFC9C005E893A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 259D4738306EFC9B005E893A /* WalkingApp */;
+			targetProxy = 259D4753306EFC9C005E893A /* PBXContainerItemProxy */;
+		};
+		25D58BD2306F009E0082448B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25D58BC3306F009D0082448B /* WalkingWatch Watch App */;
+			targetProxy = 25D58BD1306F009E0082448B /* PBXContainerItemProxy */;
+		};
+		25D58BDC306F009E0082448B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25D58BC3306F009D0082448B /* WalkingWatch Watch App */;
+			targetProxy = 25D58BDB306F009E0082448B /* PBXContainerItemProxy */;
+		};
+		25D58BE1306F009E0082448B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25D58BC3306F009D0082448B /* WalkingWatch Watch App */;
+			targetProxy = 25D58BE0306F009E0082448B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		259D4758306EFC9C005E893A /* Debug configuration for PBXProject "WalkingApp" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8ZQ6X64B49;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		259D4759306EFC9C005E893A /* Release configuration for PBXProject "WalkingApp" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8ZQ6X64B49;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		259D475B306EFC9C005E893A /* Debug configuration for PBXNativeTarget "WalkingApp" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WalkingApp/WalkingApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZQ6X64B49;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "WalkingApp uses your health and activity data to track walking workouts and show your walking progress.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hjc.walking.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		259D475C306EFC9C005E893A /* Release configuration for PBXNativeTarget "WalkingApp" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WalkingApp/WalkingApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZQ6X64B49;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "WalkingApp uses your health and activity data to track walking workouts and show your walking progress.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hjc.walking.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		259D475E306EFC9C005E893A /* Debug configuration for PBXNativeTarget "WalkingAppTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZQ6X64B49;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hjc.walking.WalkingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WalkingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WalkingApp";
+			};
+			name = Debug;
+		};
+		259D475F306EFC9C005E893A /* Release configuration for PBXNativeTarget "WalkingAppTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZQ6X64B49;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hjc.walking.WalkingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WalkingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WalkingApp";
+			};
+			name = Release;
+		};
+		259D4761306EFC9C005E893A /* Debug configuration for PBXNativeTarget "WalkingAppUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZQ6X64B49;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hjc.walking.WalkingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WalkingApp;
+			};
+			name = Debug;
+		};
+		259D4762306EFC9C005E893A /* Release configuration for PBXNativeTarget "WalkingAppUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZQ6X64B49;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hjc.walking.WalkingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WalkingApp;
+			};
+			name = Release;
+		};
+		25D58BE3306F009E0082448B /* Debug configuration for PBXNativeTarget "WalkingWatch Watch App" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "WalkingWatch Watch App/WalkingWatch Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZQ6X64B49;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WalkingWatch;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "WalkingApp uses your health and activity data to track walking workouts and show your walking progress.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = hjc.walking.app;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hjc.walking.app.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		25D58BE4306F009E0082448B /* Release configuration for PBXNativeTarget "WalkingWatch Watch App" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "WalkingWatch Watch App/WalkingWatch Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZQ6X64B49;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WalkingWatch;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "WalkingApp uses your health and activity data to track walking workouts and show your walking progress.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = hjc.walking.app;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hjc.walking.app.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Release;
+		};
+		25D58BE5306F009E0082448B /* Debug configuration for PBXNativeTarget "WalkingWatch Watch AppTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZQ6X64B49;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hjc.walking.WalkingWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WalkingWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WalkingWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		25D58BE6306F009E0082448B /* Release configuration for PBXNativeTarget "WalkingWatch Watch AppTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZQ6X64B49;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hjc.walking.WalkingWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WalkingWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WalkingWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Release;
+		};
+		25D58BE7306F009E0082448B /* Debug configuration for PBXNativeTarget "WalkingWatch Watch AppUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZQ6X64B49;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hjc.walking.WalkingWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "WalkingWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		25D58BE8306F009E0082448B /* Release configuration for PBXNativeTarget "WalkingWatch Watch AppUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZQ6X64B49;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hjc.walking.WalkingWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "WalkingWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		259D4734306EFC9B005E893A /* Build configuration list for PBXProject "WalkingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259D4758306EFC9C005E893A /* Debug configuration for PBXProject "WalkingApp" */,
+				259D4759306EFC9C005E893A /* Release configuration for PBXProject "WalkingApp" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		259D475A306EFC9C005E893A /* Build configuration list for PBXNativeTarget "WalkingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259D475B306EFC9C005E893A /* Debug configuration for PBXNativeTarget "WalkingApp" */,
+				259D475C306EFC9C005E893A /* Release configuration for PBXNativeTarget "WalkingApp" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		259D475D306EFC9C005E893A /* Build configuration list for PBXNativeTarget "WalkingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259D475E306EFC9C005E893A /* Debug configuration for PBXNativeTarget "WalkingAppTests" */,
+				259D475F306EFC9C005E893A /* Release configuration for PBXNativeTarget "WalkingAppTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		259D4760306EFC9C005E893A /* Build configuration list for PBXNativeTarget "WalkingAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259D4761306EFC9C005E893A /* Debug configuration for PBXNativeTarget "WalkingAppUITests" */,
+				259D4762306EFC9C005E893A /* Release configuration for PBXNativeTarget "WalkingAppUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		25D58BE9306F009E0082448B /* Build configuration list for PBXNativeTarget "WalkingWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25D58BE3306F009E0082448B /* Debug configuration for PBXNativeTarget "WalkingWatch Watch App" */,
+				25D58BE4306F009E0082448B /* Release configuration for PBXNativeTarget "WalkingWatch Watch App" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		25D58BEA306F009E0082448B /* Build configuration list for PBXNativeTarget "WalkingWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25D58BE5306F009E0082448B /* Debug configuration for PBXNativeTarget "WalkingWatch Watch AppTests" */,
+				25D58BE6306F009E0082448B /* Release configuration for PBXNativeTarget "WalkingWatch Watch AppTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		25D58BEB306F009E0082448B /* Build configuration list for PBXNativeTarget "WalkingWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25D58BE7306F009E0082448B /* Debug configuration for PBXNativeTarget "WalkingWatch Watch AppUITests" */,
+				25D58BE8306F009E0082448B /* Release configuration for PBXNativeTarget "WalkingWatch Watch AppUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 259D4731306EFC9B005E893A /* Project object */;
+	validationLevel = 1;
+}
