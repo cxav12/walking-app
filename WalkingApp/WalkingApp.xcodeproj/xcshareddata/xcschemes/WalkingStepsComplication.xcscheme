@@ -73,12 +73,20 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C7A64C8D3BFFCC03D8689742"
+            BuildableName = "WalkingStepsComplication.appex"
+            ReferencedContainer = "container:WalkingApp.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
             BlueprintIdentifier = "259D4738306EFC9B005E893A"
             BuildableName = "WalkingApp.app"
             BlueprintName = "WalkingApp"
             ReferencedContainer = "container:WalkingApp.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <EnvironmentVariables>
          <EnvironmentVariable
             key = "_XCWidgetKind"
