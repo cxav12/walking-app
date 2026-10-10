@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		25D58BE2306F009E0082448B /* WalkingWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 25D58BC4306F009D0082448B /* WalkingWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		406561B159D382757146950C /* WalkingStepsWidget.appex in Embed Step Extension */ = {isa = PBXBuildFile; fileRef = C460B9F2F786AE4B504EDFBF /* WalkingStepsWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5291672A6EDDF269A5FCA80C /* WalkingStepsComplication.appex in Embed Step Extension */ = {isa = PBXBuildFile; fileRef = 6DEE87AD65EBEC63D8B5BD50 /* WalkingStepsComplication.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,20 @@
 			remoteGlobalIDString = 25D58BC3306F009D0082448B;
 			remoteInfo = "WalkingWatch Watch App";
 		};
+		8BE55F3126ABDECD4368F361 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 259D4731306EFC9B005E893A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7A64C8D3BFFCC03D8689742;
+			remoteInfo = WalkingStepsComplication;
+		};
+		A61FB914C5A071D089AD3C2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 259D4731306EFC9B005E893A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BFE38C59DC0F276A475D235;
+			remoteInfo = WalkingStepsWidget;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,6 +74,24 @@
 			);
 			name = "Embed Watch Content";
 		};
+		41FC5DA7FE91F64B47178B6A /* Embed Step Extension */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "";
+			dstSubfolder = PlugIns;
+			files = (
+				5291672A6EDDF269A5FCA80C /* WalkingStepsComplication.appex in Embed Step Extension */,
+			);
+			name = "Embed Step Extension";
+		};
+		B28FC726B576037653200C4A /* Embed Step Extension */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "";
+			dstSubfolder = PlugIns;
+			files = (
+				406561B159D382757146950C /* WalkingStepsWidget.appex in Embed Step Extension */,
+			);
+			name = "Embed Step Extension";
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -67,9 +101,26 @@
 		25D58BC4306F009D0082448B /* WalkingWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WalkingWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25D58BD0306F009E0082448B /* WalkingWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WalkingWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25D58BDA306F009E0082448B /* WalkingWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WalkingWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DEE87AD65EBEC63D8B5BD50 /* WalkingStepsComplication.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WalkingStepsComplication.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C460B9F2F786AE4B504EDFBF /* WalkingStepsWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WalkingStepsWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		013D6EEA633811E6D195D41D /* SharedApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SharedApp;
+			sourceTree = "<group>";
+		};
+		208C75CEB2073CFB81D8067B /* StepsWidgets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StepsWidgets;
+			sourceTree = "<group>";
+		};
+		247A50F936D8D1D4101EDF3C /* SharedSteps */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SharedSteps;
+			sourceTree = "<group>";
+		};
 		259D473B306EFC9B005E893A /* WalkingApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = WalkingApp;
@@ -133,12 +184,25 @@
 			files = (
 			);
 		};
+		BEF47D7FBFDDDB33218F1235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		BF70FAF9D1286C191BB591B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		259D4730306EFC9B005E893A = {
 			isa = PBXGroup;
 			children = (
+				208C75CEB2073CFB81D8067B /* StepsWidgets */,
+				013D6EEA633811E6D195D41D /* SharedApp */,
+				247A50F936D8D1D4101EDF3C /* SharedSteps */,
 				259D473B306EFC9B005E893A /* WalkingApp */,
 				259D474B306EFC9C005E893A /* WalkingAppTests */,
 				259D4755306EFC9C005E893A /* WalkingAppUITests */,
@@ -152,6 +216,8 @@
 		259D473A306EFC9B005E893A /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				6DEE87AD65EBEC63D8B5BD50 /* WalkingStepsComplication.appex */,
+				C460B9F2F786AE4B504EDFBF /* WalkingStepsWidget.appex */,
 				259D4739306EFC9B005E893A /* WalkingApp.app */,
 				259D4748306EFC9C005E893A /* WalkingAppTests.xctest */,
 				259D4752306EFC9C005E893A /* WalkingAppUITests.xctest */,
@@ -165,10 +231,30 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0BFE38C59DC0F276A475D235 /* WalkingStepsWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D4B62FC77CC31A3230CD82C /* Build configuration list for PBXNativeTarget "WalkingStepsWidget" */;
+			buildPhases = (
+				07E69184399C7B319073F3B0 /* Sources */,
+				BEF47D7FBFDDDB33218F1235 /* Frameworks */,
+				BDEBDA819CA73B93C15694F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				208C75CEB2073CFB81D8067B /* StepsWidgets */,
+				247A50F936D8D1D4101EDF3C /* SharedSteps */,
+			);
+			name = WalkingStepsWidget;
+			productName = WalkingStepsWidget;
+			productReference = C460B9F2F786AE4B504EDFBF /* WalkingStepsWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		259D4738306EFC9B005E893A /* WalkingApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 259D475A306EFC9C005E893A /* Build configuration list for PBXNativeTarget "WalkingApp" */;
 			buildPhases = (
+				B28FC726B576037653200C4A /* Embed Step Extension */,
 				259D4735306EFC9B005E893A /* Sources */,
 				259D4736306EFC9B005E893A /* Frameworks */,
 				259D4737306EFC9B005E893A /* Resources */,
@@ -177,9 +263,12 @@
 			buildRules = (
 			);
 			dependencies = (
+				575CA1FEF56CE105B80E1725 /* PBXTargetDependency */,
 				25D58BE1306F009E0082448B /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
+				013D6EEA633811E6D195D41D /* SharedApp */,
+				247A50F936D8D1D4101EDF3C /* SharedSteps */,
 				259D473B306EFC9B005E893A /* WalkingApp */,
 			);
 			name = WalkingApp;
@@ -233,13 +322,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25D58BE9306F009E0082448B /* Build configuration list for PBXNativeTarget "WalkingWatch Watch App" */;
 			buildPhases = (
+				41FC5DA7FE91F64B47178B6A /* Embed Step Extension */,
 				25D58BC0306F009D0082448B /* Sources */,
 				25D58BC1306F009D0082448B /* Frameworks */,
 				25D58BC2306F009D0082448B /* Resources */,
 			);
 			buildRules = (
 			);
+			dependencies = (
+				CC0F7AC3890424CCD2734AB2 /* PBXTargetDependency */,
+			);
 			fileSystemSynchronizedGroups = (
+				013D6EEA633811E6D195D41D /* SharedApp */,
+				247A50F936D8D1D4101EDF3C /* SharedSteps */,
 				25D58BC5306F009D0082448B /* WalkingWatch Watch App */,
 			);
 			name = "WalkingWatch Watch App";
@@ -289,6 +384,25 @@
 			productReference = 25D58BDA306F009E0082448B /* WalkingWatch Watch AppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		C7A64C8D3BFFCC03D8689742 /* WalkingStepsComplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EF41462DA8D7FA9D751297E /* Build configuration list for PBXNativeTarget "WalkingStepsComplication" */;
+			buildPhases = (
+				63422D0FAEEF14418E73038E /* Sources */,
+				BF70FAF9D1286C191BB591B2 /* Frameworks */,
+				0BBCFEF540899F110A3B1419 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				208C75CEB2073CFB81D8067B /* StepsWidgets */,
+				247A50F936D8D1D4101EDF3C /* SharedSteps */,
+			);
+			name = WalkingStepsComplication;
+			productName = WalkingStepsComplication;
+			productReference = 6DEE87AD65EBEC63D8B5BD50 /* WalkingStepsComplication.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -337,6 +451,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				C7A64C8D3BFFCC03D8689742 /* WalkingStepsComplication */,
+				0BFE38C59DC0F276A475D235 /* WalkingStepsWidget */,
 				259D4738306EFC9B005E893A /* WalkingApp */,
 				259D4747306EFC9C005E893A /* WalkingAppTests */,
 				259D4751306EFC9C005E893A /* WalkingAppUITests */,
@@ -348,6 +464,11 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0BBCFEF540899F110A3B1419 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
 		259D4737306EFC9B005E893A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
@@ -378,9 +499,19 @@
 			files = (
 			);
 		};
+		BDEBDA819CA73B93C15694F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		07E69184399C7B319073F3B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
 		259D4735306EFC9B005E893A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
@@ -407,6 +538,11 @@
 			);
 		};
 		25D58BD6306F009E0082448B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		63422D0FAEEF14418E73038E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
 			);
@@ -438,6 +574,16 @@
 			isa = PBXTargetDependency;
 			target = 25D58BC3306F009D0082448B /* WalkingWatch Watch App */;
 			targetProxy = 25D58BE0306F009E0082448B /* PBXContainerItemProxy */;
+		};
+		575CA1FEF56CE105B80E1725 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BFE38C59DC0F276A475D235 /* WalkingStepsWidget */;
+			targetProxy = A61FB914C5A071D089AD3C2A /* PBXContainerItemProxy */;
+		};
+		CC0F7AC3890424CCD2734AB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7A64C8D3BFFCC03D8689742 /* WalkingStepsComplication */;
+			targetProxy = 8BE55F3126ABDECD4368F361 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -574,7 +720,7 @@
 				DEVELOPMENT_TEAM = 8ZQ6X64B49;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHealthShareUsageDescription = "WalkingApp uses your health and activity data to track walking workouts and show your walking progress.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "WalkingApp reads your steps for the app, widgets, and watch complications, and sleep records for sleep times and a calculated sleep score.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -608,7 +754,7 @@
 				DEVELOPMENT_TEAM = 8ZQ6X64B49;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHealthShareUsageDescription = "WalkingApp uses your health and activity data to track walking workouts and show your walking progress.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "WalkingApp reads your steps for the app, widgets, and watch complications, and sleep records for sleep times and a calculated sleep score.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -727,7 +873,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = WalkingWatch;
-				INFOPLIST_KEY_NSHealthShareUsageDescription = "WalkingApp uses your health and activity data to track walking workouts and show your walking progress.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "WalkingApp reads your steps for the app, widgets, and watch complications, and sleep records for sleep times and a calculated sleep score.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = hjc.walking.app;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -762,7 +908,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = WalkingWatch;
-				INFOPLIST_KEY_NSHealthShareUsageDescription = "WalkingApp uses your health and activity data to track walking workouts and show your walking progress.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "WalkingApp reads your steps for the app, widgets, and watch complications, and sleep records for sleep times and a calculated sleep score.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = hjc.walking.app;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -875,9 +1021,129 @@
 			};
 			name = Release;
 		};
+		5534B2EFB77FF15DAC7B89E7 /* Debug configuration for PBXNativeTarget "WalkingStepsComplication" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = WidgetConfiguration/Steps.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZQ6X64B49;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WidgetConfiguration/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Today’s Steps";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Display your daily step count from Apple Health.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hjc.walking.app.watchkitapp.steps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		6BF5FB6EECFB58521C7DF56C /* Release configuration for PBXNativeTarget "WalkingStepsWidget" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = WidgetConfiguration/Steps.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZQ6X64B49;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WidgetConfiguration/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Today’s Steps";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Display your daily step count from Apple Health.";
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hjc.walking.app.steps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		89041CB69CDD92213BB01E74 /* Debug configuration for PBXNativeTarget "WalkingStepsWidget" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = WidgetConfiguration/Steps.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZQ6X64B49;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WidgetConfiguration/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Today’s Steps";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Display your daily step count from Apple Health.";
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hjc.walking.app.steps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AED9CA3D6CBD5AE17E9AE00E /* Release configuration for PBXNativeTarget "WalkingStepsComplication" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = WidgetConfiguration/Steps.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZQ6X64B49;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WidgetConfiguration/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Today’s Steps";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Display your daily step count from Apple Health.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hjc.walking.app.watchkitapp.steps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0EF41462DA8D7FA9D751297E /* Build configuration list for PBXNativeTarget "WalkingStepsComplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5534B2EFB77FF15DAC7B89E7 /* Debug configuration for PBXNativeTarget "WalkingStepsComplication" */,
+				AED9CA3D6CBD5AE17E9AE00E /* Release configuration for PBXNativeTarget "WalkingStepsComplication" */,
+			);
+			defaultConfigurationName = Release;
+		};
 		259D4734306EFC9B005E893A /* Build configuration list for PBXProject "WalkingApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -931,6 +1197,14 @@
 			buildConfigurations = (
 				25D58BE7306F009E0082448B /* Debug configuration for PBXNativeTarget "WalkingWatch Watch AppUITests" */,
 				25D58BE8306F009E0082448B /* Release configuration for PBXNativeTarget "WalkingWatch Watch AppUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		8D4B62FC77CC31A3230CD82C /* Build configuration list for PBXNativeTarget "WalkingStepsWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89041CB69CDD92213BB01E74 /* Debug configuration for PBXNativeTarget "WalkingStepsWidget" */,
+				6BF5FB6EECFB58521C7DF56C /* Release configuration for PBXNativeTarget "WalkingStepsWidget" */,
 			);
 			defaultConfigurationName = Release;
 		};

@@ -1,32 +1,10 @@
-//
-//  WalkingAppApp.swift
-//  WalkingApp
-//
-//  Created by Xavier Chamorro on 10/1/26.
-//
-
 import SwiftUI
-import SwiftData
 
 @main
 struct WalkingAppApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
-        }
-    }()
+    @UIApplicationDelegateAdaptor(StepsAppDelegate.self) private var appDelegate
 
     var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-        .modelContainer(sharedModelContainer)
+        WindowGroup { ContentView() }
     }
 }

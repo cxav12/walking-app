@@ -23,6 +23,24 @@ final class WalkingAppUITests: XCTestCase {
     }
 
     @MainActor
+    func testSettingsContainsProfileGoalAndHealth() throws {
+        let app = XCUIApplication()
+        app.launch()
+        XCTAssertFalse(app.buttons["Connect Apple Health"].exists)
+        app.buttons["openSettings"].tap()
+        XCTAssertTrue(app.buttons["Connect Apple Health"].waitForExistence(timeout: 5))
+        app.buttons["editDailyGoal"].tap()
+        XCTAssertTrue(app.textFields["dailyGoalInput"].waitForExistence(timeout: 5))
+        app.buttons["Cancel"].tap()
+        app.buttons.containing(.staticText, identifier: "Your name").firstMatch.tap()
+        XCTAssertTrue(app.textFields["Your name"].waitForExistence(timeout: 5))
+        app.buttons["Not now"].tap()
+        app.buttons["Done"].tap()
+        XCTAssertTrue(app.buttons["openSettings"].waitForExistence(timeout: 5))
+        XCTAssertFalse(app.buttons["Connect Apple Health"].exists)
+    }
+
+    @MainActor
     func testExample() throws {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
